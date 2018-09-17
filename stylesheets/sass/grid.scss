@@ -1,0 +1,17 @@
+$columnWidth: 6.5972222222vw;
+$gutterWidth: 1.3888888889vw;
+$columnGutter: $columnWidth + $gutterWidth;
+
+@mixin column1 {
+  margin-left: 7.9861111111vw;
+}
+
+@media screen and (max-width: 600px) {
+  $columnWidth: 8.1666666667vw;
+  $gutterWidth: 1.8333333333vw;
+  $columnGutter: $columnWidth + $gutterWidth;
+
+  @mixin column1 {
+    margin-left: 2vw;
+  }
+}
