@@ -300,14 +300,14 @@ body {
 
   #works {
     margin-left: 2vw;
-    margin-top: 0;
+    margin-top: 40px;
     padding-bottom: 40px; }
     #works .workPreview {
       margin-left: 0;
       display: flex;
       flex-direction: column-reverse;
-      padding-bottom: 20px;
-      transition: .5s ease-in-out;
+      padding-bottom: 40px;
+      transition: none;
       width: 100vw; }
       #works .workPreview .text {
         width: 100vw;
@@ -346,14 +346,15 @@ body {
 
   #contacts {
     width: 96vw;
-    margin-left: 2vw;
+    margin-left: 0;
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center; }
     #contacts a {
-      width: auto; }
+      width: 96vw;
+      text-align: center; }
       #contacts a:last-of-type {
         margin-top: 10px; } }
 #head {
@@ -471,11 +472,6 @@ body {
     justify-content: space-between; }
     #presentation .next a {
       color: #717171; }
-  #presentation a.normal {
-    font-size: 20px;
-    display: block;
-    margin-top: 80px;
-    padding-bottom: 0; }
   #presentation .posters {
     width: 86.4583333332vw;
     align-items: flex-start;
@@ -578,7 +574,7 @@ body {
       width: 96vw; }
     #presentation .screen {
       width: 100vw;
-      margin-top: 40px;
+      margin-top: 10px;
       margin-left: -2vw; }
       #presentation .screen#shadow {
         box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1); }
@@ -598,12 +594,6 @@ body {
       justify-content: space-between; }
       #presentation .next a {
         color: #717171; }
-    #presentation a.normal {
-      font-size: 5.3vw;
-      line-height: 7vw;
-      display: block;
-      margin-top: 20px;
-      padding-bottom: 0; }
     #presentation .posters {
       width: 96vw; }
       #presentation .posters .poster {

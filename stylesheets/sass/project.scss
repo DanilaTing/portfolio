@@ -186,13 +186,6 @@
     }
   }
 
-  a.normal {
-    font-size: 20px;
-    display: block;
-    margin-top: 80px;
-    padding-bottom: 0;
-  }
-
 
   .posters {
     width: $columnGutter*10+$columnWidth;
@@ -370,7 +363,7 @@
 
     .screen {
       width: 100vw;
-      margin-top: 40px;
+      margin-top: 10px;
       margin-left: -2vw;
 
       &#shadow {
@@ -401,14 +394,6 @@
       a {
         color: #717171;
       }
-    }
-
-    a.normal {
-      font-size: 5.3vw;
-      line-height: 7vw;
-      display: block;
-      margin-top: 20px;
-      padding-bottom: 0;
     }
 
     .posters {
