@@ -33,33 +33,35 @@
 
     &#single {
       .aims {
-        flex-direction: column !important;
+        flex-direction: row;
         margin-left: 0;
 
         div:last-of-type {
-          margin-left: 0;
-          margin-top: 40px !important;
+          margin-left: $gutterWidth;
+          margin-top: 0;
         }
       }
     }
   }
 
   p.description {
-    // margin-left: $columnGutter*6+$columnWidth;
     max-width: $columnGutter*5+$columnWidth !important;
   }
 
   .aims {
     display: flex;
     flex-direction: column;
-    margin-left: $columnGutter;
+    margin-left: $columnGutter + $gutterWidth;
+
+    P + P {
+      margin-top: 10px;
+    }
 
     div {
       width: $columnGutter*2+$columnWidth;
 
       &:last-of-type {
-        // margin-left: $gutterWidth;
-        margin-top: 40px;
+        margin-top: 10px;
       }
     }
   }
@@ -80,7 +82,7 @@
     }
 
     a, p:nth-of-type(2){
-      margin-left: $columnGutter*2+$gutterWidth;
+      margin-left: $columnGutter*2 + $gutterWidth;
     }
   }
 
